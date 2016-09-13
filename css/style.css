@@ -1,0 +1,116 @@
+
+header {
+  height: 15vh;
+}
+
+#logo {
+  background-color: pink;
+  width: 30%
+
+}
+
+.darken {
+  background-image:
+    linear-gradient(
+      rgba(0, 0, 0, 0.5),
+      rgba(0, 0, 0, 0.5)
+    ),
+    url(shoes.jpg);
+}
+
+nav ul {
+  float: right;
+  width: 50%;
+}
+nav ul li {
+  display: inline-block;
+  width:22%;
+  background-color: black;
+  color: white;
+  text-align: center;
+  height: 15px;
+  align-content: center;
+  font-weight: lighter;
+  vertical-align: middle;
+  padding: 1.5em 0 0.5em 0;
+}
+
+#slideshowContainer {
+  position: relative;
+  height: 70vh;
+  background-color: blue;
+  display: block;
+  /*background-image: url('../images/initial.jpg');
+  */
+  background-image:
+    linear-gradient(
+      rgba(0, 0, 0, 0.5),
+      rgba(0, 0, 0, 0.5)
+    ), url(../images/initial.jpg);
+
+  background-size: 100%;
+}
+/*
+.image_holder {
+  height: 100%;
+  width: 100%;
+}
+
+.image_holder img {
+  display: block;
+  object-fit: cover;
+}*/
+/*.image_holder {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    overflow: hidden;
+}
+
+.image_holder img {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: auto;
+    height: auto;
+    max-height: none;
+    max-width: none;
+    min-height: 100%;
+    min-width: 100%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+}*/
+
+#typedLine {
+  font-family: Monaco, Consolas, "Lucida Console", monospace;
+  font-size: 2.5em;
+  text-shadow:
+    -2px -2px 0 #000,
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+    1px 1px 0 #000;
+}
+
+#typedDiv{
+  z-index: 1000;
+  position: absolute;
+  top: 70px;
+  left: 0px;
+  width: 100%;
+  text-align: center;
+  color: #fff;
+  display: block;
+}
+
+ main {
+   height: 200vh;
+   display: block;
+   background-color: mistyrose;
+ }
+
+.cb-slideshow {
+  position: absolute;
+}
