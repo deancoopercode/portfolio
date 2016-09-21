@@ -14,6 +14,13 @@ $( document ).ready(function() {
     }
   });
 
+
+  $(".astext").on('click', function(){
+    alert('Thanks for your submission. We will get back to you soon')
+  })
+
+
+
 });
 
 

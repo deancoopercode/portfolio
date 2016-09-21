@@ -1,0 +1,86 @@
+.left50 {
+  display: inline-block;
+  width: 50%;
+
+  text-align: center;
+}
+
+.right50 {
+  display: inline-block;
+  width: 49%;
+
+  text-align: center;
+}
+
+.disclaimer .right50 {
+  /*text-align: right;*/
+}
+
+.disclaimer .right50 img {
+  height: 27px;
+  -webkit-filter: brightness(200%);
+  filter: brightness(200%);
+  padding: 2.5px 16px 2.5px 16px;
+  transition: 0.5s;
+  cursor: pointer;
+
+    text-align: center;
+}
+
+.footer {
+
+}
+
+.disclaimer .right50 img:hover {
+  -webkit-filter: brightness(300%);
+  filter: brightness(300%);
+}
+
+.info-box {
+  display: inline-block;
+  margin: 0px 30px 0px 30px;
+  text-align: left;
+}
+
+.info-box i {
+  width: 35px;
+}
+
+.info {
+  text-align: center;
+  margin: 0 auto;
+  padding: 0px 0px 25px 0px;
+}
+
+.disclaimer {
+  border-top: 1px solid #504e4e;
+  padding: 25px 0px 20px 0px;
+}
+
+footer {
+  border-top: 2px solid white;
+  border-bottom: 2px solid white;
+  background-color: #1f2022;
+  color: #d9d6d6;
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
+
+.footerCompanyName {
+  color: white;
+  font-size: 1.5em;
+  font-weight: bolder;
+}
+
+.officeHeader {
+  color: #ffffff;
+  font-size: 20px;
+  font-family: 'open sans';
+  font-weight: 200;
+  font-style: normal;
+  line-height: 1.65;
+}
+
+.officeText {
+  color: red;
+}

@@ -1,44 +1,336 @@
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800);
+
+@font-face {
+    font-family: 'fontello';
+    src: url('Fonts/font/fontello.eot?55539621');
+    src: url('Fonts/font/fontello.eot?55539621#iefix') format('embedded-opentype'),
+       url('Fonts/font/fontello.woff?55539621') format('woff'),
+       url('Fonts/font/fontello.ttf?55539621') format('truetype'),
+       url('Fonts/font/fontello.svg?55539621#fontello') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+  background-color: white;
+}
+
+h1,h2,h3,h4,h5 {
+  font-size: medium;
+  color: white;
+  padding: 0.3em  0em 0.3em  0em
+}
+
+p {
+  /*color: white;*/
+  padding: 0.2em;
+}
+
+
+.skillsExperienceHeaders {
+  font-size: 1.5em;
+}
+
+.bolder {
+  font-weight: bolder;
+}
+
+.container {
+  max-width: 1100px;
+  margin: 0px auto 0px auto;
+}
+
+.contactUsInput {
+  height: 40px;
+  width: 100%;
+  font-size: 1em;
+}
+
+
+.contactUsMessage {
+  height: 100px;
+  width: 100%;
+}
+
+.whatWeDoHeader {
+  color: darkblue;
+    font-size: 1.7em;
+}
+
+.sectionTitleHeader {
+  color: black;
+  font-size: 2.3em;
+  margin-top: 0px;
+}
+
+.sectionTitleHeader2 {
+  color: #0a04b9;
+  font-size: 2.3em;
+  margin-top: 0px;
+}
+
+.speaker {
+    display: inline-block;
+    width: 31%;
+    margin: 1%;
+    text-align: center;
+    vertical-align: top;
+    padding: 15px;
+    border: 1px solid black;
+    color: black;
+    height: 400px;
+}
+
+.customPara {
+  font-size: 22px;
+  font-family: 'open sans';
+  font-weight: 200;
+  line-height: 33px;
+  color: #6c6c6c;
+}
+
+.speaker:hover {
+  background-color: mistyrose;
+}
+
+.avatar-holder {
+  width: 175px;
+  height: 175px;
+  margin: 0 auto;
+  overflow: hidden;
+  border-radius: 100%;
+  border: 3px solid chocolate;
+}
+
+img {
+  height: 100%;
+}
 
 header {
-  height: 15vh;
+  height: 18vh;
+
+}
+nav {
+  width: 70%;
+  text-align: center;
+}
+nav ul {
+  text-align: center;
+}
+
+.aboutUsPara {
+  font-size: 22px;
+  font-family: 'open sans';
+  font-weight: 200;
+  line-height: 33px;
+  color: #6c6c6c;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  width: 80%;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.sectionServices {
+  background-color: #eeecec;
+  padding-top: 20px;
+  padding-bottom: 40px;
+  text-align: center;
+}
+
+
+
+.gridImage{
+  float: left;
+  margin: 4px;
+  height:100px;
+  /*border: 2px solid black;*/
+}
+
+
+
+.sectionAboutUs {
+  /*height: 30vh;*/
+  background-color: #FFF;
+  text-align: center;
+  margin: 0 auto;
+  padding-top: 20px;
+  padding-bottom: 40px;
+}
+
+.sectionTechStack {
+
+  /*height: 40vh;*/
+  color: white;
+  background-color: white;
+  padding-top: 20px;
+  padding-bottom: 40px;
+}
+
+
+.sectionWork {
+  background-color: #239cd2;
+  text-align: center;
+  margin: 0 auto;
+  padding-top: 20px;
+  padding-bottom: 40px;
+}
+
+.sectionContactUs {
+  /*height: 40vh;*/
+  background-color: #F5F5F5!important;
+  padding-bottom: 20px;
+}
+
+
+.sectionContactUsContainer {
+  width: 50%;
+  margin: 0 auto;
+}
+.slillsulContainer {
+  text-align: center;
+}
+
+
+.skillsli {
+  font-size: 14px;
+   margin-left: 10px;
+   list-style-type: circle;
+   list-style: circle;
+}
+/*.contactUsInput {
+  width: 100%;
+}*/
+
+.sectionServicesContainer {
+  display: flex;
+}
+
+.col {
+   width: 32%;
+   border: 2px solid black;
+}
+
+.titlePreHeader{
+  color: #aaa;
+  font-size: 24px;
+  font-style: italic;
+  font-weight: 300;
+  /*margin-bottom: 10px;*/
+  font-family: Open Sans,sans-serif;
+  text-align: center;
+  padding-top: 20px;
+}
+
+.titlePostHeader {
+  color: #aaa;
+  font-size: 24px;
+  font-style: italic;
+  font-weight: 300;
+  /*margin-bottom: 10px;*/
+  font-family: Open Sans,sans-serif;
+  text-align: center;
+  padding-bottom: 20px;
+}
+.titleSectionFinal {
+  font-family: Open Sans,sans-serif !important;
+  font-size: 48px !important;
+  font-weight: 200 !important;
+
+  text-transform: uppercase;
+  color: black;
+  text-align: center;
+}
+
+.bottomMargin {
+    margin: 0 0 30px;
+}
+
+.titleSectionFinalAlternate {
+  font-family: Open Sans,sans-serif !important;
+  font-size: 48px !important;
+  font-weight: 200 !important;
+  margin: 0 0 30px;
+  text-transform: uppercase;
+  color: white;
+  text-align: center;
+}
+
+
+.centered {
+  text-align: center;
+}
+
+.astext {
+    background:none;
+    border:none;
+    margin:0;
+    padding:0;
+    font-family: Open Sans,sans-serif !important;
+    font-size: 24px !important;
+    font-weight: 200 !important;
+}
+
+
+
+
+
+
+
+
+
+
+.servicesDiv1Image {
+  background-image: url('../images/web-site-design.jpg');
+}
+
+.submitButton {
+  margin: 0 auto;
+}
+
+#flexContainer {
+  display: flex;
+  width: 100%;
+  /*flex-direction: column;*/
+  /*flex-flow: nowrap;*/
+  flex-wrap:nowrap; /* the default */
+  align-items: flex-start;
 }
 
 #logo {
-  background-color: pink;
-  width: 30%
-
+  width: 30%;
+  height: 140px;
+  text-align: center
 }
 
-.darken {
+/*.darken {
   background-image:
     linear-gradient(
       rgba(0, 0, 0, 0.5),
       rgba(0, 0, 0, 0.5)
     ),
     url(shoes.jpg);
-}
+}*/
 
-nav ul {
-  float: right;
-  width: 50%;
-}
+
 nav ul li {
   display: inline-block;
   width:22%;
-  background-color: black;
-  color: white;
+  /*background-color: black;
+  color: white;*/
   text-align: center;
   height: 15px;
   align-content: center;
-  font-weight: lighter;
+  font-weight: darker;
   vertical-align: middle;
   padding: 1.5em 0 0.5em 0;
+  font-size: larger;
 }
 
 #slideshowContainer {
   position: relative;
   height: 70vh;
-  background-color: blue;
+  /*background-color: blue;*/
   display: block;
   /*background-image: url('../images/initial.jpg');
   */
@@ -105,10 +397,16 @@ nav ul li {
   display: block;
 }
 
- main {
-   height: 200vh;
+.divSlideshow {
+  /*height: 200vh;*/
+  display: block;
+  background-color: brown;
+}
+
+ main{
+   /*height: 200vh;*/
    display: block;
-   background-color: mistyrose;
+   /*background-color: purple;*/
  }
 
 .cb-slideshow {
