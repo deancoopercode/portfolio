@@ -107,7 +107,7 @@ img {
 }
 
 header {
-  height: 18vh;
+  height: 14vh;
 
 }
 nav {
@@ -299,10 +299,14 @@ nav ul {
 
 #logo {
   width: 30%;
-  height: 140px;
-  text-align: center
+  height: 80px;
+  text-align: center;
+  margin-top: 10px;
 }
 
+#logo img {
+  float: left;
+}
 /*.darken {
   background-image:
     linear-gradient(
